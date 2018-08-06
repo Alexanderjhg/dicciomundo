@@ -1,15 +1,15 @@
 
 <template>
-    <paises></paises>
+    <agregar></agregar>
 </template>
 
 <script>
-  import paises from '@/components/paises.vue';
+  import agregar from '@/components/agregar.vue';
   export default {
     components:{
-      paises,
+      agregar,
     },
-    name: 'paises-view',
+    name: 'agregar-view',
       data() {
           return {
             

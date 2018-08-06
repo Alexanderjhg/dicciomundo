@@ -1,15 +1,15 @@
 
 <template>
-    <paises></paises>
+    <palabras></palabras>
 </template>
 
 <script>
-  import paises from '@/components/paises.vue';
+  import palabras from '@/components/palabras.vue';
   export default {
     components:{
-      paises,
+      palabras,
     },
-    name: 'paises-view',
+    name: 'palabras-view',
       data() {
           return {
             
